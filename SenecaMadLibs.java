@@ -5,7 +5,8 @@ public class SenecaMadLibs {
         Console console = System.console();
         // printf to be able to use format specifiers
         // format specifier for string %s
-        console.printf("this class is awesome\n\n");
+        String name = console.readLine("Enter Your Name: ");
+        console.printf("%s is an awesome student\n\n", name);
 
     }
 }
