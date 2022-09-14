@@ -12,6 +12,10 @@ public class SenecaMadLibs {
             System.exit(0);
         }
 
+        String teammates = ("Liz", "Norris", "Damaria", "Ben");
+
+
+
         String name = console.readLine("Enter your name:  ");
         String adjective = console.readLine("Enter a adjective: ");
         String adverb = console.readLine("Enter a adverb:  ");
