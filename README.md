@@ -1,5 +1,16 @@
 # SS-Homework
 
+## Sept 19 - 23
+### Configuring Conditionals & Array Practice
+hw this week is in the `ConfiguringConditionals.java` & `AchievingArrays.java` file. Follow these steps to complete:
+
+  1. checkout `main` and do a `git pull`
+  2. checkout your `pr-homework-USERNAME` branch and do a `git merge main` (ping in the chat if you get stuck)
+  3. build the `ConfiguringConditionals.java` file using the command line commands we covered in class
+  4. Follow the steps in the comments of the java file 
+  5. Repeat steps 4 & 5 for AchievingArrays.java
+  6. Commit your updates and push to github
+  
 ## Sept 5th - 9th
 ### Find the errors
 To re-iterate what we went over last week, hw this week is in the `FindTheErrors.java` file. Follow these steps to complete:
