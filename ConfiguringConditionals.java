@@ -30,7 +30,7 @@ public class ConfiguringConditionals {
     // }
 
     // if () {
-    //   System.out.println("b is less than y and c is greater than x");
+    //   System.out.println("y is less than b and c is greater than x");
     // }
 
     // if () {
