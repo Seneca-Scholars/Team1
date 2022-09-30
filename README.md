@@ -1,5 +1,14 @@
 # SS-Homework
+## Sept 30 - Oct 7
+### Make a BoomBox! Practicing Methods and Objects
+hw this week is in the `PlaySomeTunes.java` & `BoomBox.java` files. Follow these steps to complete:
 
+  1. checkout `main` and do a `git pull`
+  2. checkout your `pr-homework-USERNAME` branch and do a `git merge main` (ping in the chat if you get stuck)
+  3. build the `PlaySomeTunes.java` file using the command line commands we covered in class
+  4. Follow the steps in the comments of the java files 
+  5. Commit your updates and push to github
+  
 ## Sept 19 - 23
 ### Configuring Conditionals & Array Practice
 hw this week is in the `ConfiguringConditionals.java` & `AchievingArrays.java` file. Follow these steps to complete:
