@@ -1,5 +1,6 @@
 # SS-Homework
-## Sept 30 - Oct 7
+
+## Oct 10 - Oct 14
 ### Add Songs to our BoomBox. Practicing Lists and Maps
 hw this week is in the `BoomBox` folder. Follow these steps to complete:
 
@@ -9,6 +10,8 @@ hw this week is in the `BoomBox` folder. Follow these steps to complete:
   4. change your directory to the `BoomBox` folder and build `PlaySomeTunes.java` to make sure you've got it working
   5. Follow the steps in the `Song.java` file 
   6. Commit your updates and push to github
+
+## Sept 30 - Oct 7
   ### Make a BoomBox! Practicing Methods and Objects
 hw this week is in the `PlaySomeTunes.java` & `BoomBox.java` files. Follow these steps to complete:
 
