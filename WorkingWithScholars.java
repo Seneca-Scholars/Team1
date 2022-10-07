@@ -28,20 +28,20 @@ public class WorkingWithScholars {
         ourTeams.add(team2);
         ourTeams.add(team3);
 
-        for(int i = 0; i < ourTeams.size(); i++) {
-            console.printf(
-                "Team %d has %d members %n", 
-                i+1, 
-                ourTeams.get(i).getClassSize()
-            );
-        }
+        // for(int i = 0; i < ourTeams.size(); i++) {
+        //     console.printf(
+        //         "Team %d has %d members %n", 
+        //         i+1, 
+        //         ourTeams.get(i).getClassSize()
+        //     );
+        // }
 
-        for(SenecaScholars team : ourTeams){
-            console.printf(
-                "Team has %d members %n", 
-                team.getClassSize()
-            );
-        }
+        // for(SenecaScholars team : ourTeams){
+        //     console.printf(
+        //         "Team has %d members %n", 
+        //         team.getClassSize()
+        //     );
+        // }
 
         Map<Integer, String> teamNames = new HashMap<>();
         teamNames.put(0, "Hashira");
