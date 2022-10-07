@@ -1,6 +1,6 @@
 import java.io.Console;
 
-public class FindTheErrors {
+public class PlaySomeTunes {
     public static void main(String[] args) {
 
         System.out.println("Welcome to my BoomBox Player!");
