@@ -1,4 +1,4 @@
-// MAKE A BOOMBOX!
+// MAKE A SONG!
 //
 // Steps:
 // Create the Song class:
