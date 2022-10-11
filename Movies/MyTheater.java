@@ -10,11 +10,20 @@ public class MyTheater {
         Map<String, Movie[]> ourMovies = new HashMap<>();
 
         Movie[] actionMovies = MovieSorter.retrieveMovies(Movie.CAT_ACTION);
+        Movie[] horrorMovies = MovieSorter.retrieveMovies(Movie.CAT_HORROR);
 
         ourMovies.put(Movie.CAT_ACTION, actionMovies);
+        ourMovies.put(Movie.CAT_HORROR, horrorMovies);
 
+        Movie[] actionMoviesFromStorage = ourMovies.get(Movie.CAT_ACTION);
         // print our action movies
-        for(Movie movie : ourMovies.get(Movie.CAT_ACTION)) {
+        for(Movie movie : actionMoviesFromStorage) {
+            movie.printName();
+        }
+
+        Movie[] horrorMoviesFromStorage = ourMovies.get(Movie.CAT_HORROR);
+        // print our action movies
+        for(Movie movie : horrorMoviesFromStorage) {
             movie.printName();
         }
 
@@ -41,6 +50,11 @@ class MovieSorter {
             Movie[] actionMovies = {jurassicPark, theMatrix};
 
             return actionMovies;
+        }
+
+        if(category == Movie.CAT_HORROR) {
+            Movie[] horrorMovies = {new Movie("Scream"), new Movie("The Conjuring")};
+            return horrorMovies;
         }
 
         return null;
