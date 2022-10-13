@@ -29,6 +29,11 @@ public class AchievingArrays {
     };
 
   System.out.println("Choose a programmer:");
+
+  for (int i = 0; i < programmers.length; i ++){
+    System.out.println(programmers[i]);
+
+  }
   // TODO: Print out a menu by looping through the programmers array.
   /*
     The menu should be in the form of (each on a line of its own, starting with 1):
